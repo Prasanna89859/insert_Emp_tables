@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+
+        <h1>selectmulitpule</h1>
+        <table border="3px">
+            <tr>
+                <th>Webpage</th>
+            </tr>
+        </table>
+            {% for Ac in AccessRecords %}
+            <tr>
+                <td>{{Ac.AccessRecords}}</td>
+            </tr>
+
+            {% endfor %}
+    </center>
+
+</body>
+</html>
